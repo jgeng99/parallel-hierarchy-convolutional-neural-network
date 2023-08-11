@@ -1,4 +1,4 @@
-# Summary
+# Attempt to Reproduce Results from "Region Based Parallel Hierarchy Convolutional Neural Network for Automatic Facial Nerve Paralysis Evaluation"
 
 This is a naive attempt to reproduce the outcome from the paper "Region Based Parallel Hierarchy Convolutional Neural Network for Automatic Facial Nerve Paralysis Evaluation" by Xin Liu. Within the paper, they talked about various really interesting approach towards detecting the seriousness level of face palsy. Specifically, they construct a two phase process, where they segment the face, eye, and mouth regions from the raw bmp files for each patient to put into three CNN network, respectively. Then, they flattened the feature matrices and combined it into one big feature array, throwing it into a LSTM network to hopefully generalize the seriousness of face palsy (Xin Liu et al.[2020](https://ieeexplore.ieee.org/document/9186079)).
 
